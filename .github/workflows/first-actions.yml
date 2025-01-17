@@ -1,0 +1,10 @@
+name: Run Command Shell
+on: [push]
+
+jobs:
+  run-shell-command:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo A String
+        run: echo "80 times a charm"
+        
